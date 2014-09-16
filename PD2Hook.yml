@@ -1,0 +1,26 @@
+﻿Config:
+ OutputMode: 3
+ OutputFile: Debug.log
+ PrintOffsets: false
+ ExtraCols: 10
+ ExtraRows: 10
+KeyBindings:
+ # To change your keybindings, you can find a list of virtual keys (VK's) at http://goo.gl/JYvkqK
+ # DO NOT EDIT ANYTHING IN THIS FILE EXCEPT THE KEYBINDINGS.
+ - [VK_HOME, scripts\keybound\ACPMenu.lua]
+ - [VK_F5, scripts\keybound\missionscripts.lua]
+ #- [VK_F5, scripts\keybound\printtable.lua]
+ - [VK_NUMLOCK, scripts\keybound\explodingbags.lua]
+ - [VK_SNAPSHOT, scripts\keybound\killall.lua]
+ - [VK_INSERT, scripts\keybound\menubound\waypoints.lua]
+ - [VK_SCROLL, scripts\keybound\unlockassets.lua]
+ - [VK_PRIOR, scripts\keybound\increase.lua]
+ - [VK_NEXT, scripts\keybound\decrease.lua]
+ - [VK_PAUSE, scripts\keybound\preventdropin.lua]
+ # Reminder, DO NOT edit anything beneath this line.
+PersistScripts:
+ - [ACPSubCore, scripts\config\ACPSubCore.lua]
+PostRequireScripts:
+ - ["*", scripts\config\ACPCore.lua]
+ - [lib/managers/localizationmanager, scripts\config\DCLocalizationManager.lua]
+ - [lib/managers/menumanager, scripts\config\DCMenuManager.lua]

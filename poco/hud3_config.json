@@ -1,0 +1,78 @@
+{
+            "buff": {
+                                     "maxFPS": 60,
+                              "showBerserker": false,
+                                  "showBoost": false,
+                            "showBulletstorm": false,
+                              "showCarryDrop": false,
+                                 "showCharge": false,
+                            "showCombatMedic": false,
+                                "showInspire": false,
+                               "showInteract": false,
+                            "showInteraction": false,
+                               "showOverkill": false,
+                                 "showReload": false,
+                                 "showShield": false,
+                                "showStamina": false,
+                             "showTransition": false,
+                               "showUnderdog": false,
+                        "simpleBusyIndicator": false
+                    },
+            "chat": {
+                              "converted": 1,
+                                "custody": 1,
+                              "dominated": 0,
+                          "downedWarning": 1,
+                        "drillAlmostDone": 0,
+                              "drillDone": 1,
+                                "endStat": 0,
+                          "endStatCredit": 0,
+                         "hostageChanged": 0,
+                                "messiah": 0,
+                             "minionLost": 1,
+                             "minionShot": 1,
+                            "replenished": 1
+                    },
+          "corner": {
+                        "showClockIngame": true,
+                                "showFPS": false
+                    },
+           "float": {
+                        "opacity": 70,
+                           "size": 20
+                    },
+            "game": {
+                                "corpseLimit": 9,
+                        "fasterDesyncResolve": 3,
+                        "ingameJoinRemaining": false,
+                           "subtitleFontSize": 17,
+                            "subtitleOpacity": 70
+                    },
+             "hit": {
+                        "duration": 1,
+                          "number": false
+                    },
+    "playerBottom": {
+                         "showAverageDamage": 0,
+                                 "showClock": 0,
+                        "showConvertedEnemy": 2,
+                              "showDistance": 0,
+                               "showInspire": 0
+                    },
+     "playerFloat": {
+                        "showDistance": 0,
+                            "showIcon": 0,
+                         "showInspire": 0
+                    },
+           "popup": {
+                           "AiDamage": false,
+                         "crewDamage": false,
+                        "damageDecay": 5,
+                          "dominated": false,
+                            "handsUp": false
+                    },
+            "root": {
+                               "24HourClock": false,
+                        "detailedModeToggle": true
+                    }
+}
