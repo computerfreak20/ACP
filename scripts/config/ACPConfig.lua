@@ -10,7 +10,7 @@ ACPConfig = ACPConfig or class()
 require 'scripts/config/DCStrings'
 function ACPConfig:init()
 
-	self.Version = 2.30						-- *****Do not change this line*****
+	self.Version = 2.31						-- *****Do not change this line*****
 
 	self.PocoHUD_Enable = true			-- Set this to false to disable PocoHUD
 	
