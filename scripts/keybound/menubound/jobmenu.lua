@@ -5,43 +5,43 @@
 -----------------------------------------
 -- ESCAPE CHAIN (Current Difficulty)
 EscapeCafeChain = function()
-managers.job:set_next_interupt_stage( "escape_cafe" )
-show_mid_text( "Escape Chain:", "Set to: Cafe", 3,5 )
+	managers.job:set_next_interupt_stage( "escape_cafe" )
+	show_mid_text( "Escape Chain:", "Set to: Cafe", 3,5 )
 end
 
 EscapeCafeDayChain = function()
-managers.job:set_next_interupt_stage( "escape_cafe_day" )
-show_mid_text( "Escape Chain:", "Set to: Cafe (Day)", 3,5 )
+	managers.job:set_next_interupt_stage( "escape_cafe_day" )
+	show_mid_text( "Escape Chain:", "Set to: Cafe (Day)", 3,5 )
 end
 
 EscapeParkChain = function()
-managers.job:set_next_interupt_stage( "escape_park" )
-show_mid_text( "Escape Chain:", "Set to: Park", 3,5 )
+	managers.job:set_next_interupt_stage( "escape_park" )
+	show_mid_text( "Escape Chain:", "Set to: Park", 3,5 )
 end
 
 EscapeParkDayChain = function()
-managers.job:set_next_interupt_stage( "escape_park_day" )
-show_mid_text( "Escape Chain:", "Set to: Park (Day)", 3,5 )
+	managers.job:set_next_interupt_stage( "escape_park_day" )
+	show_mid_text( "Escape Chain:", "Set to: Park (Day)", 3,5 )
 end
 
 EscapeOverPassChain = function()
-managers.job:set_next_interupt_stage( "escape_overpass" )
-show_mid_text( "Escape Chain:", "Set to: Overpass", 3,5 )
+	managers.job:set_next_interupt_stage( "escape_overpass" )
+	show_mid_text( "Escape Chain:", "Set to: Overpass", 3,5 )
 end
 
 EscapeOverPassNightChain = function()
-managers.job:set_next_interupt_stage( "escape_overpass_night" )
-show_mid_text( "Escape Chain:", "Set to: Overpass (Night)", 3,5 )
+	managers.job:set_next_interupt_stage( "escape_overpass_night" )
+	show_mid_text( "Escape Chain:", "Set to: Overpass (Night)", 3,5 )
 end
 
 EscapeStreetChain = function()
-managers.job:set_next_interupt_stage( "escape_street" )
-show_mid_text( "Escape Chain:", "Set to: Street", 3,5 )
+	managers.job:set_next_interupt_stage( "escape_street" )
+	show_mid_text( "Escape Chain:", "Set to: Street", 3,5 )
 end
 
 EscapeGarageChain = function()
-managers.job:set_next_interupt_stage( "escape_garage" )
-show_mid_text( "Escape Chain:", "Set to: Garage", 3,5 )
+	managers.job:set_next_interupt_stage( "escape_garage" )
+	show_mid_text( "Escape Chain:", "Set to: Garage", 3,5 )
 end
 
 -- ESCAPES (Normal, Hard, Very Hard, OverKill, and DeathWish)
